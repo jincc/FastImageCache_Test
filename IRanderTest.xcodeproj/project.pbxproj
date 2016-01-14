@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094095411C44EB4200AC49DC /* SCImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 094095391C44EB4200AC49DC /* SCImageCacheManager.m */; };
+		094095421C44EB4200AC49DC /* SCImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940953B1C44EB4200AC49DC /* SCImageEntity.m */; };
+		094095441C44EB4200AC49DC /* UIImageView+SCFastImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940953F1C44EB4200AC49DC /* UIImageView+SCFastImageCache.m */; };
+		094095461C44EB8200AC49DC /* weibo_avatars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 094095451C44EB8200AC49DC /* weibo_avatars.plist */; };
+		094095491C44ECB200AC49DC /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 094095481C44ECB200AC49DC /* Cell.m */; };
+		0940954C1C44ED0100AC49DC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940954B1C44ED0100AC49DC /* TableViewController.m */; };
+		0964B6021C46412600935D66 /* SCFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0964B6011C46412600935D66 /* SCFPSLabel.m */; };
 		09A8DC981C3C0B030060ADFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8DC971C3C0B030060ADFA /* main.m */; };
 		09A8DC9B1C3C0B030060ADFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8DC9A1C3C0B030060ADFA /* AppDelegate.m */; };
-		09A8DC9E1C3C0B030060ADFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A8DC9D1C3C0B030060ADFA /* ViewController.m */; };
 		09A8DCA11C3C0B030060ADFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A8DC9F1C3C0B030060ADFA /* Main.storyboard */; };
 		09A8DCA31C3C0B030060ADFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A8DCA21C3C0B030060ADFA /* Assets.xcassets */; };
 		09A8DCA61C3C0B030060ADFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A8DCA41C3C0B030060ADFA /* LaunchScreen.storyboard */; };
+		EDCB7BB8DED60494EC9911C0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B66C84F02BFD383BBB38F86 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		094095381C44EB4200AC49DC /* SCImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageCacheManager.h; sourceTree = "<group>"; };
+		094095391C44EB4200AC49DC /* SCImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageCacheManager.m; sourceTree = "<group>"; };
+		0940953A1C44EB4200AC49DC /* SCImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageEntity.h; sourceTree = "<group>"; };
+		0940953B1C44EB4200AC49DC /* SCImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageEntity.m; sourceTree = "<group>"; };
+		0940953E1C44EB4200AC49DC /* UIImageView+SCFastImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SCFastImageCache.h"; sourceTree = "<group>"; };
+		0940953F1C44EB4200AC49DC /* UIImageView+SCFastImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SCFastImageCache.m"; sourceTree = "<group>"; };
+		094095451C44EB8200AC49DC /* weibo_avatars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weibo_avatars.plist; sourceTree = "<group>"; };
+		094095471C44ECB200AC49DC /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		094095481C44ECB200AC49DC /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		0940954A1C44ED0100AC49DC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0940954B1C44ED0100AC49DC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		0964B6001C46412600935D66 /* SCFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFPSLabel.h; sourceTree = "<group>"; };
+		0964B6011C46412600935D66 /* SCFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFPSLabel.m; sourceTree = "<group>"; };
 		09A8DC931C3C0B030060ADFA /* IRanderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRanderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A8DC971C3C0B030060ADFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09A8DC991C3C0B030060ADFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09A8DC9A1C3C0B030060ADFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09A8DC9C1C3C0B030060ADFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09A8DC9D1C3C0B030060ADFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09A8DCA01C3C0B030060ADFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09A8DCA21C3C0B030060ADFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09A8DCA51C3C0B030060ADFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A8DCA71C3C0B030060ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B66C84F02BFD383BBB38F86 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E18648E492079192391966 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8C525148C42C6451B5A10723 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +54,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCB7BB8DED60494EC9911C0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094095351C44EB4200AC49DC /* FCICache */ = {
+			isa = PBXGroup;
+			children = (
+				094095381C44EB4200AC49DC /* SCImageCacheManager.h */,
+				094095391C44EB4200AC49DC /* SCImageCacheManager.m */,
+				0940953A1C44EB4200AC49DC /* SCImageEntity.h */,
+				0940953B1C44EB4200AC49DC /* SCImageEntity.m */,
+				0940953E1C44EB4200AC49DC /* UIImageView+SCFastImageCache.h */,
+				0940953F1C44EB4200AC49DC /* UIImageView+SCFastImageCache.m */,
+				0964B6001C46412600935D66 /* SCFPSLabel.h */,
+				0964B6011C46412600935D66 /* SCFPSLabel.m */,
+			);
+			path = FCICache;
+			sourceTree = "<group>";
+		};
 		09A8DC8A1C3C0B030060ADFA = {
 			isa = PBXGroup;
 			children = (
 				09A8DC951C3C0B030060ADFA /* IRanderTest */,
 				09A8DC941C3C0B030060ADFA /* Products */,
+				0F30A27053DCF2CBF58171FA /* Pods */,
+				FF627C7DB727E142A3972112 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +97,14 @@
 		09A8DC951C3C0B030060ADFA /* IRanderTest */ = {
 			isa = PBXGroup;
 			children = (
+				094095351C44EB4200AC49DC /* FCICache */,
 				09A8DC991C3C0B030060ADFA /* AppDelegate.h */,
 				09A8DC9A1C3C0B030060ADFA /* AppDelegate.m */,
-				09A8DC9C1C3C0B030060ADFA /* ViewController.h */,
-				09A8DC9D1C3C0B030060ADFA /* ViewController.m */,
+				094095471C44ECB200AC49DC /* Cell.h */,
+				094095481C44ECB200AC49DC /* Cell.m */,
+				0940954A1C44ED0100AC49DC /* TableViewController.h */,
+				0940954B1C44ED0100AC49DC /* TableViewController.m */,
+				094095451C44EB8200AC49DC /* weibo_avatars.plist */,
 				09A8DC9F1C3C0B030060ADFA /* Main.storyboard */,
 				09A8DCA21C3C0B030060ADFA /* Assets.xcassets */,
 				09A8DCA41C3C0B030060ADFA /* LaunchScreen.storyboard */,
@@ -79,6 +122,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0F30A27053DCF2CBF58171FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33E18648E492079192391966 /* Pods.debug.xcconfig */,
+				8C525148C42C6451B5A10723 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF627C7DB727E142A3972112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B66C84F02BFD383BBB38F86 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09A8DCAA1C3C0B030060ADFA /* Build configuration list for PBXNativeTarget "IRanderTest" */;
 			buildPhases = (
+				1149E5ED7033A42F06084BB0 /* Check Pods Manifest.lock */,
 				09A8DC8F1C3C0B030060ADFA /* Sources */,
 				09A8DC901C3C0B030060ADFA /* Frameworks */,
 				09A8DC911C3C0B030060ADFA /* Resources */,
+				0D7EF448FD0039A39646C7AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094095461C44EB8200AC49DC /* weibo_avatars.plist in Resources */,
 				09A8DCA61C3C0B030060ADFA /* LaunchScreen.storyboard in Resources */,
 				09A8DCA31C3C0B030060ADFA /* Assets.xcassets in Resources */,
 				09A8DCA11C3C0B030060ADFA /* Main.storyboard in Resources */,
@@ -145,13 +208,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D7EF448FD0039A39646C7AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1149E5ED7033A42F06084BB0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09A8DC8F1C3C0B030060ADFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A8DC9E1C3C0B030060ADFA /* ViewController.m in Sources */,
+				094095491C44ECB200AC49DC /* Cell.m in Sources */,
 				09A8DC9B1C3C0B030060ADFA /* AppDelegate.m in Sources */,
+				094095441C44EB4200AC49DC /* UIImageView+SCFastImageCache.m in Sources */,
+				0940954C1C44ED0100AC49DC /* TableViewController.m in Sources */,
+				094095411C44EB4200AC49DC /* SCImageCacheManager.m in Sources */,
+				094095421C44EB4200AC49DC /* SCImageEntity.m in Sources */,
+				0964B6021C46412600935D66 /* SCFPSLabel.m in Sources */,
 				09A8DC981C3C0B030060ADFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,23 +361,29 @@
 		};
 		09A8DCAB1C3C0B030060ADFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E18648E492079192391966 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: li ming (4FSQDB9GBB)";
 				INFOPLIST_FILE = IRanderTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IRanderTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumei.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d69c3236-306c-4a4d-87f7-304750bb33ae";
 			};
 			name = Debug;
 		};
 		09A8DCAC1C3C0B030060ADFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C525148C42C6451B5A10723 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: li ming (4FSQDB9GBB)";
 				INFOPLIST_FILE = IRanderTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IRanderTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumei.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d69c3236-306c-4a4d-87f7-304750bb33ae";
 			};
 			name = Release;
 		};
@@ -299,6 +406,7 @@
 				09A8DCAC1C3C0B030060ADFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

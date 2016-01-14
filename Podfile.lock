@@ -1,0 +1,30 @@
+PODS:
+  - FastImageCache (1.3)
+  - KMCGeigerCounter (0.2.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RRFPSBar (0.0.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+
+DEPENDENCIES:
+  - FastImageCache (~> 1.3)
+  - KMCGeigerCounter (~> 0.2.2)
+  - ReactiveCocoa (~> 2.5)
+  - RRFPSBar (~> 0.0.1)
+  - SDWebImage (~> 3.7.3)
+
+SPEC CHECKSUMS:
+  FastImageCache: 25f214fd46405daca3d1995d783fb83b9036c62e
+  KMCGeigerCounter: f8cc3c4aa19fc6f8cec168fb03b364b84c118a7a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RRFPSBar: 32fd2b11fb3d6ea90dc9a1424f964ea3851cd091
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+
+COCOAPODS: 0.38.2

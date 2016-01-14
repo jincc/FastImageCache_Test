@@ -7,16 +7,49 @@
 //
 
 #import "AppDelegate.h"
-
+#import <RRFPSBar.h>
+#import "SCImageCacheManager.h"
+#import <KMCGeigerCounter.h>
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+- (void)redirectNSlogToDocumentFolder
 
+{
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    
+    NSString *documentDirectory = [paths objectAtIndex:0];
+    
+    NSString *fileName = [NSString stringWithFormat:@"MrNSLog.txt"];// 注意不是NSData!
+    
+    NSString *logFilePath = [documentDirectory stringByAppendingPathComponent:fileName];
+    
+    // 先删除已经存在的文件
+    
+    NSFileManager *defaultManager = [NSFileManager defaultManager];
+    
+    [defaultManager removeItemAtPath:logFilePath error:nil];
+    
+    
+    
+    // 将log输入到文件
+    
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "a+", stdout);
+    
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "a+", stderr);
+    
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    [[RRFPSBar sharedInstance]setShowsAverage:true];
+//    [self redirectNSlogToDocumentFolder];
+    
+    [[SCImageCacheManager manager]appendFormatWithName:@"32BitBGR"
+                                             imageSize:CGSizeMake(80, 80)
+                                          maximumCount:250];
     return YES;
 }
 

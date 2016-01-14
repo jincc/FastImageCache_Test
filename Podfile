@@ -1,0 +1,5 @@
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'FastImageCache', '~> 1.3'
+pod 'SDWebImage', '~> 3.7.3'
+ pod 'KMCGeigerCounter', '~> 0.2.2'
+ pod 'RRFPSBar', '~> 0.0.1'
